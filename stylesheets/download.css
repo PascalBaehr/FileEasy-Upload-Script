@@ -1,0 +1,43 @@
+#info
+{
+  color:#898989;
+  font:bold 20px Helvetica;
+  margin-bottom:25px;
+  text-align:center;
+}
+
+#info a
+{
+  border-bottom:solid 1px #bbb;
+  color:#777;
+  text-decoration:none;
+}
+
+#file_info
+{
+  color:#888;
+  margin-top:-15px;
+  margin-bottom:10px;
+}
+
+#sponsor
+{
+  background-color:#CBCBCB;
+  color:#fff;
+  display:block;
+  font:Bold 11px Helvetica;
+  margin:auto;
+  padding-bottom:15px;
+  position:relative;
+  width:330px;
+}
+
+#sponsor a img
+{
+  border-width:0;
+}
+
+#sponsor .message
+{
+  padding:5px 0 4px;
+}

@@ -1,0 +1,225 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+html, body
+{
+  height:101%;
+  max-height:101%;
+}
+
+body
+{
+  background-color:#fff;
+  font:Normal 13px 'Lucida Grande', Verdana, sans-serif;
+  text-align:center;
+  margin:0;
+}
+
+form
+{
+  margin:0;
+  padding:0;
+}
+
+img#logo
+{
+  border:0;
+  margin:30px auto 0;
+}
+
+div#content
+{
+  margin-top:30px;
+}
+
+img#instructions
+{
+  display:block;
+  width:327px;
+  height:77px;
+  margin:0 auto 40px;
+}
+
+div#box
+{
+  width:437px;
+  height:247px;
+  background:url("/images/box.gif");
+  position:relative;
+  color:#222;
+  margin:auto;
+}
+
+div#box div.notice
+{
+  padding-top:30px;
+  text-align:center;
+  font-size:18px;
+  width:380px;
+  margin:auto;
+}
+
+div#box div.notice h2
+{
+  font:Bold 40px Helvetica, sans-serif;
+}
+
+div#box div.notice a
+{
+  color:#000;
+}
+
+div#notice
+{
+  margin-bottom:20px;
+}
+
+div#notice span
+{
+  background-color:#FFEE7F;
+  font-size:20px;
+}
+
+div#box label
+{
+  font:Bold 25px Helvetica;
+  letter-spacing:-1px;
+  position:absolute;
+  text-align:right;
+  right:300px;
+}
+
+div#box label#file_label
+{
+  top:35px;
+}
+
+div#box div#limit_label
+{
+  font-size:10px;
+  position:absolute;
+  text-align:right;
+  right:300px;
+  top:60px;
+}
+
+div#box label#expire_label
+{
+  top:90px;
+}
+
+div#box input#file
+{
+  position:absolute;
+  left:150px;
+  top:40px;
+}
+
+div#box select#expire_in
+{
+  position:absolute;
+  left:150px;
+  top:91px;
+  font:Normal 16px Helvetica;
+}
+
+div#box img#progress_bar
+{
+  width:220px;
+  height:19px;
+}
+
+div#box div#upload_notification
+{
+  font:bold 12px Verdana, sans-serif;
+  display:none;
+}
+
+input#upload_button,div#upload_notification
+{
+  position:absolute;
+  width:215px;
+  height:67px;
+  left:111px;
+  bottom:30px;
+}
+
+div#box div#filename_label
+{
+  padding-top:35px;
+  padding-bottom:15px;
+  font:Bold 25px Helvetica;
+  letter-spacing:-1px;
+  text-align:center;
+}
+
+div#box input#download_url
+{
+  margin-top:20px;
+  margin-bottom:15px;
+  font:normal 26px Helvetica;
+  width:345px;
+  text-align:center;
+}
+
+div#content div#file_size
+{
+  color:#888;
+}
+
+div#box div#email_link
+{
+  padding-top:10px;
+}
+
+div#box div#email_link a
+{
+  color:#333;
+}
+
+div#footer
+{
+  color:#666;
+  margin-top:25px;
+}
+
+div#footer a
+{
+  color:#666;
+}
+
+div#footer span.seperator
+{
+  color:#bbb;
+  margin:0 5px;
+}
+
+div#footer div#copyright
+{
+  font-size:11px;
+  margin-top:5px;
+  margin-bottom:10px;
+}
+
+div#long_text
+{
+  width:400px;
+  text-align:left;
+  font-size:13px;
+  margin:0 auto 20px;
+}
+
+div#long_text h1
+{
+  font:Normal 30px Helvetica, sans-serif;
+  color:#444;
+}
+
+div#long_text h2
+{
+  font-size:14px;
+  margin:20px 0 5px;
+}

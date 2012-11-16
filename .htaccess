@@ -1,0 +1,18 @@
+Options -Indexes +FollowSymlinks
+RewriteEngine on
+
+ErrorDocument 400 /404.php
+ErrorDocument 401 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /404.php
+
+RewriteRule ^404$                                                   404.php [nc]
+RewriteRule ^home$                                                  index.php [nc]
+RewriteRule ^upload$                                                index.php [nc]
+RewriteRule ^support$                                               support.php [nc]
+RewriteRule ^privacy_policy$                                        privacy_policy.php [nc]
+RewriteRule ^terms_of_service$                                      terms_of_service.php [nc]
+
+RewriteRule ^([0-9a-zA-Z]{6,13})$                                   download.php?id=$1 [QSA,L]
+RewriteRule ^file/([0-9a-zA-Z]{6,13})/([0-9a-zA-Z]{40})/(.*)$       file.php?id=$1&secid=$2 [L]

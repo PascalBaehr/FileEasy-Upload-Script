@@ -27,7 +27,9 @@ and simple script to use with advanced features.
 
 ## Requirements
 
-TODO
+* PHP Version 5 or Higher
+* MySQL Support
+* Apache mod_rewrite module
 
 ## Install
 

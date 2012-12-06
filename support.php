@@ -43,7 +43,7 @@ include("./utils/templates/header.php");
       <h2>General Queries</h2>
       To get in touch with the developers behind <?php print $site_name; ?>, drop an email to <a href="mailto:<?php print(get_config('admin_email')); ?>?subject=<?php print ("RE: " . ucfirst($site_name) . " Query"); ?>"><?php print(get_config('admin_email')); ?></a> with the subject "RE: <?php print ucfirst($site_name); ?> Query".
       <h2>Abuse</h2>
-      To report abuse of our Terms of Service, send us an email at <a href="mailto:abuse@fileeasy.co.uk?subject=<?php print ("RE: " . ucfirst($site_name) . " Abuse"); ?>"><?php print(get_config('admin_email')); ?></a> with the subject "RE: <?php print ucfirst($site_name); ?> Abuse".
+      To report abuse of our Terms of Service, send us an email at <a href="mailto:<?php print(get_config('admin_email')); ?>?subject=<?php print ("RE: " . ucfirst($site_name) . " Abuse"); ?>"><?php print(get_config('admin_email')); ?></a> with the subject "RE: <?php print ucfirst($site_name); ?> Abuse".
     </div>
   </div>
 <?php

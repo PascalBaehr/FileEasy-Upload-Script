@@ -49,7 +49,7 @@
     </div>
     <ul id="headernav">
 <?php
-if(session_is_registered(adminsession)){
+if(isset($_SESSION['adminsession'])){
 ?>
       <li><a href="./logout.php">Logout</a></li>
 <?php

@@ -36,7 +36,7 @@ include("../utils/config.php");
 include("../utils/functions.php");
 include("../utils/admin_functions.php");
 
-if(!session_is_registered(adminsession)) {
+if(!isset($_SESSION['adminsession'])) {
   header("location: ./login.php");
 }
 

@@ -36,7 +36,8 @@ include("../utils/config.php");
 include("../utils/functions.php");
 include("../utils/admin_functions.php");
 
-if(session_is_registered(adminsession)) {
+
+if(isset($_SESSION['adminsession'])) {
   header("location: ./index.php");
 }
 
@@ -49,7 +50,7 @@ if(isset($_POST['login'])) {
   }else if( ( $_POST['username'] !== get_config('admin_username') ) || ( $_POST['password'] !== get_config('admin_password') ) ) {
     $error = "Those login credentials are incorrect.";
   }else{
-    session_register("adminsession");
+    $_SESSION['adminsession'] = true;
     header("Location: ./index.php");
   }
 }
